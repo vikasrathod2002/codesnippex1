@@ -13,12 +13,19 @@ const app = express();
 
 // CORS Configuration (Allow only frontend access)
 app.use(cors({
-    origin: 'http://localhost:3000',  // Allow frontend access
+     origin: [
+        'http://localhost:3000', 
+        'https://codesnippex1-5.onrender.com'
+    ],
     credentials: true,                // Allow cookies if needed
 }));
 
 // Middleware
 app.use(express.json());
+
+app.get('/api', (req, res) => {
+    res.send('API is running...');
+});
 
 // Routes
 app.use('/api/snippets', require('./routes/snippetRoutes'));
