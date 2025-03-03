@@ -1,7 +1,7 @@
 ![Screenshot 2025-03-03 205004](https://github.com/user-attachments/assets/0c677e0d-8637-4fa2-aa97-6f13861f8eab)
 
 
-   # 🧩 CodeSnippeX - Full-Stack Code Snippet Management Application
+   # 🧩 CodeSnippeX - Full-Stack Code Snippet 
     🌐 Live Demo : https://codesnippex1-5.onrender.com/
     
 **CodeSnippeX** is a fully-featured **code snippet management platform** built using the **MERN stack** — MongoDB, Express.js, React.js, and Node.js. This platform allows users to securely create, store, manage, and search for code snippets with advanced ranking and popularity features.
@@ -73,7 +73,7 @@
 - JWT token issuance on successful login
 - Edit user profiles
 
-### 📝 Code Snippet Management
+### 📝 Code Snippet 
 - Create new code snippets with title, tags, and description
 - Edit and update existing snippets
 - Delete snippets (soft delete or permanent)
